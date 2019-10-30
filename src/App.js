@@ -14,7 +14,7 @@ class App extends Component {
       {
         id: 2,
         title: 'Dinner with wife',
-        completed: false
+        completed: true
       },
       {
         id: 3,
@@ -23,10 +23,33 @@ class App extends Component {
       }
     ]
   }
+
+  constructor() {
+    super()
+    for (var i = this.state.todos.length + 1; i < 0; ++i) {
+      this.state.todos.push({
+        id: i,
+        title: `task number ${i}`,
+        completed: Math.random() < 0.5 ? true : false
+      })
+    }
+  }
+
+  markComplete = (id) => {
+    this.setState({
+      todos: this.state.todos.map(todo => {
+        if (todo.id === id) {
+          todo.completed = !todo.completed
+        }
+        return todo
+      })
+    })
+  }
+
   render() {
     return (
       <div className="App">
-        <Todos todos={this.state.todos} />
+        <Todos todos={this.state.todos} markComplete={this.markComplete} />
       </div >
     );
   }
