@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react_crash_course/static/css/main.db12bd42.chunk.css",
-    "main.js": "/react_crash_course/static/js/main.4fe00c44.chunk.js",
-    "main.js.map": "/react_crash_course/static/js/main.4fe00c44.chunk.js.map",
+    "main.js": "/react_crash_course/static/js/main.7dbfe4b5.chunk.js",
+    "main.js.map": "/react_crash_course/static/js/main.7dbfe4b5.chunk.js.map",
     "runtime-main.js": "/react_crash_course/static/js/runtime-main.dd242ee7.js",
     "runtime-main.js.map": "/react_crash_course/static/js/runtime-main.dd242ee7.js.map",
     "static/js/2.7073a987.chunk.js": "/react_crash_course/static/js/2.7073a987.chunk.js",
     "static/js/2.7073a987.chunk.js.map": "/react_crash_course/static/js/2.7073a987.chunk.js.map",
     "index.html": "/react_crash_course/index.html",
-    "precache-manifest.eb1e2db4c9a93f054f14366d6f84ac51.js": "/react_crash_course/precache-manifest.eb1e2db4c9a93f054f14366d6f84ac51.js",
+    "precache-manifest.355ff9fb8c3553b93871d33f99c44205.js": "/react_crash_course/precache-manifest.355ff9fb8c3553b93871d33f99c44205.js",
     "service-worker.js": "/react_crash_course/service-worker.js",
     "static/css/main.db12bd42.chunk.css.map": "/react_crash_course/static/css/main.db12bd42.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.dd242ee7.js",
     "static/js/2.7073a987.chunk.js",
     "static/css/main.db12bd42.chunk.css",
-    "static/js/main.4fe00c44.chunk.js"
+    "static/js/main.7dbfe4b5.chunk.js"
   ]
 }
