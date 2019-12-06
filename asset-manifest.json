@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/react_crash_course/static/css/main.db12bd42.chunk.css",
-    "main.js": "/react_crash_course/static/js/main.18649147.chunk.js",
-    "main.js.map": "/react_crash_course/static/js/main.18649147.chunk.js.map",
+    "main.js": "/react_crash_course/static/js/main.1f51d4b0.chunk.js",
+    "main.js.map": "/react_crash_course/static/js/main.1f51d4b0.chunk.js.map",
     "runtime-main.js": "/react_crash_course/static/js/runtime-main.dd242ee7.js",
     "runtime-main.js.map": "/react_crash_course/static/js/runtime-main.dd242ee7.js.map",
-    "static/js/2.7073a987.chunk.js": "/react_crash_course/static/js/2.7073a987.chunk.js",
-    "static/js/2.7073a987.chunk.js.map": "/react_crash_course/static/js/2.7073a987.chunk.js.map",
+    "static/js/2.9905ba61.chunk.js": "/react_crash_course/static/js/2.9905ba61.chunk.js",
+    "static/js/2.9905ba61.chunk.js.map": "/react_crash_course/static/js/2.9905ba61.chunk.js.map",
     "index.html": "/react_crash_course/index.html",
-    "precache-manifest.2252cd07f58d4bd18efefa1e961b9cbc.js": "/react_crash_course/precache-manifest.2252cd07f58d4bd18efefa1e961b9cbc.js",
+    "precache-manifest.9005c54519c480cf92c095a13b3fb470.js": "/react_crash_course/precache-manifest.9005c54519c480cf92c095a13b3fb470.js",
     "service-worker.js": "/react_crash_course/service-worker.js",
     "static/css/main.db12bd42.chunk.css.map": "/react_crash_course/static/css/main.db12bd42.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.dd242ee7.js",
-    "static/js/2.7073a987.chunk.js",
+    "static/js/2.9905ba61.chunk.js",
     "static/css/main.db12bd42.chunk.css",
-    "static/js/main.18649147.chunk.js"
+    "static/js/main.1f51d4b0.chunk.js"
   ]
 }
