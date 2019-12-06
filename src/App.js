@@ -1,13 +1,14 @@
 // import uuid from 'uuid' # not needed with json placeholder because it automatically add an id to items
 import axios from 'axios'
 import React, { Component } from 'react'
-import { HashRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/layout/Header'
 import Todos from './components/Todos'
 import AddTodo from './components/AddTodo'
 import About from './components/pages/About'
 
 import './App.css';
+
 class App extends Component {
   state = {
     todos: []
@@ -53,7 +54,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <div className="container">
             <Header />
