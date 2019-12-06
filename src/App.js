@@ -33,7 +33,7 @@ class App extends Component {
   }
 
   deleteItem = async (id) => {
-    const result = await axios.delete(`https://jsonplaceholder.typicode.com/todos/{id}`)
+    await axios.delete(`https://jsonplaceholder.typicode.com/todos/{id}`)
     this.setState({
       todos: this.state.todos.filter(todo => {
         return todo.id !== id
