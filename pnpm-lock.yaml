@@ -1,5 +1,6 @@
 dependencies:
   axios: 0.19.0
+  gh-pages: 2.1.1
   prop-types: 15.7.2
   react: 16.11.0
   react-dom: 16.11.0_react@16.11.0
@@ -1958,7 +1959,7 @@ packages:
       lodash: 4.17.15
     dev: false
     resolution:
-      integrity: sha1-1yYl4jRKNlbjo61Pp0n6gymdgv8=
+      integrity: sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
   /asynckit/0.4.0:
     dev: false
     resolution:
@@ -2781,7 +2782,7 @@ packages:
   /commander/2.20.3:
     dev: false
     resolution:
-      integrity: sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
+      integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
   /common-tags/1.8.0:
     dev: false
     engines:
@@ -3593,6 +3594,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-w4D1+Qm/G5tEKNAozRjTsO/WtSs=
+  /email-addresses/3.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-k0/r7GrWVL32kZlGwfPNgB2Y/mMXVTq/decgLczm/j34whdaspNrZO8CnXPf1laaHxI6ptUlsnAxN+UAPw+fzg==
   /emoji-regex/7.0.3:
     dev: false
     resolution:
@@ -4255,6 +4260,31 @@ packages:
       webpack: ^4.0.0
     resolution:
       integrity: sha1-+OC6C1mZGLUa3+RdZtHnca1WD6o=
+  /filename-reserved-regex/1.0.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-5hz4BfDeHJhFZ9A4bcXfUO5a9+Q=
+  /filenamify-url/1.0.0:
+    dependencies:
+      filenamify: 1.2.1
+      humanize-url: 1.0.1
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-syvYExnvWGO3MHi+1Q9GpPeXX1A=
+  /filenamify/1.2.1:
+    dependencies:
+      filename-reserved-regex: 1.0.0
+      strip-outer: 1.0.1
+      trim-repeated: 1.0.0
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-qfL/0RxQO+0wABUCknI3jx8TZaU=
   /filesize/3.6.1:
     dev: false
     engines:
@@ -4556,6 +4586,22 @@ packages:
     dev: false
     resolution:
       integrity: sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
+  /gh-pages/2.1.1:
+    dependencies:
+      async: 2.6.3
+      commander: 2.20.3
+      email-addresses: 3.1.0
+      filenamify-url: 1.0.0
+      fs-extra: 7.0.1
+      globby: 6.1.0
+      graceful-fs: 4.2.3
+      rimraf: 2.7.1
+    dev: false
+    engines:
+      node: '>=6'
+    hasBin: true
+    resolution:
+      integrity: sha512-yNW2SFp9xGRP/8Sk2WXuLI/Gn92oOL4HBgudn6PsqAnuWT90Y1tozJoTfX1WdrDSW5Rb90kLVOf5mm9KJ/2fDw==
   /glob-parent/3.1.0:
     dependencies:
       is-glob: 3.1.0
@@ -4964,6 +5010,15 @@ packages:
     dev: false
     resolution:
       integrity: sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
+  /humanize-url/1.0.1:
+    dependencies:
+      normalize-url: 1.9.1
+      strip-url-auth: 1.0.1
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-9KuZ4NKIF0yk4eUEB8VfuuRk7/8=
   /iconv-lite/0.4.24:
     dependencies:
       safer-buffer: 2.1.2
@@ -9654,6 +9709,20 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha1-hXE5dakfuHvxswXMp3OV5A0qZKc=
+  /strip-outer/1.0.1:
+    dependencies:
+      escape-string-regexp: 1.0.5
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==
+  /strip-url-auth/1.0.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-IrD6OkE4WzO+PzMVUbu4N/oM164=
   /style-loader/1.0.0_webpack@4.41.0:
     dependencies:
       loader-utils: 1.2.3
@@ -9908,6 +9977,14 @@ packages:
     dev: false
     resolution:
       integrity: sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=
+  /trim-repeated/1.0.0:
+    dependencies:
+      escape-string-regexp: 1.0.5
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-42RqLqTokTEr9+rObPsFOAvAHCE=
   /ts-pnp/1.1.4:
     dev: false
     engines:
@@ -10704,6 +10781,7 @@ packages:
       integrity: sha1-TGV6VeB+Xyz5R/ijZlZ8BKDe3IM=
 specifiers:
   axios: ^0.19.0
+  gh-pages: ^2.1.1
   prop-types: ^15.7.2
   react: ^16.10.2
   react-dom: ^16.10.2

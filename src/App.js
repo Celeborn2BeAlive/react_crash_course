@@ -1,7 +1,7 @@
 // import uuid from 'uuid' # not needed with json placeholder because it automatically add an id to items
 import axios from 'axios'
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import Header from './components/layout/Header'
 import Todos from './components/Todos'
 import AddTodo from './components/AddTodo'
